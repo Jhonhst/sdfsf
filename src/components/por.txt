@@ -1,0 +1,22 @@
+<template>
+    <footer v-if="sourceView">
+        <div class="container-fluid font-Cae containerFlex">
+            <div class="row">
+                <div class="tfilogo col-3">
+                    <img src="/static/images/TFI_BlueWhite.png" alt="logo tfi">
+                </div>
+                <div class="tfiinfo col-6" v-html="this.sourceView"> </div>
+                <div class="logovisa col-3">
+                <ul>
+                    <li class="visa"><img src="/static/images/logo_visa_blanco.png" class="img-fluid" alt="logo"></li>
+                    <li class="american"><img src="/static/images/American_Express_logo.png" alt="logo" class="img-fluid" ></li>
+                    <li class="master"><img src="/static/images/Mastercard-White-01.png" alt="logo" class="img-fluid" ></li>
+                </ul>
+            </div>
+            </div>
+                
+                
+
+        </div>
+    </footer>
+</template>
